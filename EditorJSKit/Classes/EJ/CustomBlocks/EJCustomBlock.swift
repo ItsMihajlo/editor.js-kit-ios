@@ -5,6 +5,7 @@
 //  Created by Vadim Popov on 30.05.2022.
 //
 import Foundation
+import UIKit
 ///
 public protocol EJAbstractCustomBlock {
     var type: EJAbstractBlockType { get }
