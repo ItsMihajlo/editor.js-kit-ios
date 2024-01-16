@@ -60,7 +60,7 @@ extension EJCollectionViewAdapter: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
         do {
-            let block = data.blocks[indexPath.section]
+            let block = data.blocks[indexPath.item]
             let style = kit.style.getStyle(forBlockType: block.type)
             return try renderer.render(block: block, indexPath: indexPath, style: style)
         }
